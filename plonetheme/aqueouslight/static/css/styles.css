@@ -352,7 +352,8 @@ h3 {
 	margin:10px 0;
 }
 
-#content ul {
+#content ul,
+#content ol {
 	margin:15px 0 15px 0;
 	line-height:25px;
 	padding:15px 0 15px 15px;
@@ -360,9 +361,13 @@ h3 {
 	border-bottom:1px solid #eee;
 	color:#79B933;
 }
+
+#content ol span,
 #content ul span {
 	color:#444;
 }
+
+#contentnorightbar ol,
 #contentnorightbar ul {
 	margin:15px 0 15px 20px;
 	line-height:25px;
@@ -371,6 +376,7 @@ h3 {
 	border-bottom:1px solid #eee;
 	color:#79B933;
 }
+#contentnorightbar ol span,
 #contentnorightbar ul span {
 	color:#444;
 }

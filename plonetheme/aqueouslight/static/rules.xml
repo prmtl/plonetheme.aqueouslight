@@ -47,9 +47,9 @@
         <replace css:content-children='#portal-breadcrumbs' css:theme-children='#breadcrumbs' />
 
         <!-- Document Content -->
-        <replace css:content-children="#content" css:theme-children="#document-content" />
-        <before css:content="#edit-bar" css:theme="#document-content" />
-        <before css:content=".portalMessage" css:theme="#document-content" />
+        <replace css:content-children="#content" css:theme-children="#content" />
+        <before css:content="#edit-bar" css:theme="#content" />
+        <before css:content=".portalMessage" css:theme="#content" />
 
         <!-- Columns -->
         <replace css:content-children="#portal-column-one > *" css:theme-children="#column-one" />
