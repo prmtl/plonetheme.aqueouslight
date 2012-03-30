@@ -29,6 +29,9 @@
         <merge attributes="class" css:content="body" css:theme="body" />
         <copy attributes="id dir" css:content="body" css:theme="body" />
 
+        <!-- Title -->
+        <replace content="/html/head/title" theme="/html/head/title" />
+
         <!-- Logo  -->
         <drop css:theme="#header h1" />
         <drop css:theme="#header h2" />
@@ -51,6 +54,11 @@
         <!-- Columns -->
         <replace css:content-children="#portal-column-one > *" css:theme-children="#column-one" />
         <replace css:content-children="#portal-column-two > *" css:theme-children="#column-two" />
+
+        <!-- Footer -->
+        <copy content='//*[@id="portal-footer"]' theme='//*[@id="footer"]' />
+        <append content='//*[@id="portal-colophon"]' theme='//*[@id="footer"]' />
+        <append content='//*[@id="portal-siteactions"]' theme='//*[@id="footer"]' />
 
     </rules>
 

@@ -335,6 +335,10 @@ h2 a:hover {
 	margin:30px 0 0;
 }
 
+#footer li {
+  display: inline;
+}
+
 a {
 	color:#222;
 }
