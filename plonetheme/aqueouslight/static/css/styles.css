@@ -310,18 +310,18 @@ p {
 	line-height:22px;
 }
 
-h2 {
-	font:190% Arial;
+h1, h2, h3, h4, h5, h6 {
+	font:Arial;
 	color:#79B933;
 	border-bottom:2px solid #f6f6f6;
 }
 
-h2 a {
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	color:#79B933;
 	text-decoration:none;
 }
 
-h2 a:hover {
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
 	color:#5F9128;
 }
 

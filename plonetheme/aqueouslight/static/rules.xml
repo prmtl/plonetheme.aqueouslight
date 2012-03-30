@@ -61,12 +61,14 @@
         <replace css:content-children="#portal-column-two > *" css:theme-children="#column-two" />
 
         <!-- Footer -->
-        <copy content='//*[@id="portal-footer"]' theme='//*[@id="footer"]' />
-        <append content='//*[@id="portal-colophon"]' theme='//*[@id="footer"]' />
+        <copy content-children='//*[@id="portal-footer"]' theme='//*[@id="footer"]' />
+        <append content-children='//*[@id="portal-colophon"]' theme='//*[@id="footer"]' />
         <append content='//*[@id="portal-siteactions"]' theme='//*[@id="footer"]' />
+        <drop attributes="id" css:content="#portal-siteactions" />
 
         <!-- Misc. -->
         <drop css:content=".hiddenStructure" />
+        <drop css:content=".visualClear" />
     </rules>
 
 </rules>
