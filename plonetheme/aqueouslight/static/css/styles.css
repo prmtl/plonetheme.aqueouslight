@@ -24,7 +24,7 @@ body {
 
 * html #wrapper
 {
-	w\idth: expression(document.documentElement.clientWidth > 1200 ? "1200px" : "auto");
+	width: expression(document.documentElement.clientWidth > 1200 ? "1200px" : "auto");
 }
 
 #innerwrapper {
@@ -52,12 +52,8 @@ body {
 }
 
 #header form {
-	padding:27px 25px 20px 25px;
 	float:right;
-	background:#fff;
 	width:160px;
-	margin:-20px -20px 0 0 !important;
-	margin:-20px -10px 0 0;
 	border:none;
 }
 
@@ -123,6 +119,7 @@ body {
 	background:#4F9EC9;
 }
 
+#header #nav li.selected a, 
 #header #nav a.active {
 	background:#4F9EC9;
 }
@@ -300,6 +297,7 @@ body {
 #content {
 	margin:0 210px 0 240px;
 	padding:20px 0 0 20px;
+  clear: none;
 }
 
 #contentnorightbar {
