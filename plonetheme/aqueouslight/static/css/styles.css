@@ -166,6 +166,10 @@ body {
 	color:#fff;
 }
 
+#header img {
+  background: none;
+  border: none;
+}
 
 #sidebar {
 	background:#fff;
