@@ -175,12 +175,14 @@ body {
 	float:left;
 	color:#666;
 }
-
+#sidebar .portletHeader,
 #sidebar h2 {
 	font:160% Arial;
 	color:#333;
 	margin:10px 0 10px 0;
 	border:none;
+  padding: 0;
+  background: none;
 }
 
 #sidebar h3 {
@@ -239,7 +241,6 @@ body {
 	display:none;
 	color:#666;
 }
-
 #sidebar .subnav li a:hover b {
 	display:inline;
 }
@@ -266,12 +267,14 @@ body {
 	line-height:20px;
 	margin:10px 0;
 }
-
+#sidebarright .portletHeader,
 #sidebarright h2 {
 	font:140% Arial;
 	color:#333;
 	margin:10px 0;
 	border:none;
+  padding: 0;
+  background: none;
 }
 
 #sidebarright ul {
@@ -300,9 +303,12 @@ body {
   clear: none;
 }
 
-#contentnorightbar {
-	margin:0 0 0 240px;
-	padding:20px 0 0 20px;
+.norightbar {
+	margin-right: 0 !important; 
+}
+
+.noleftbar {
+	margin-left: 0 !important;
 }
 
 p {
