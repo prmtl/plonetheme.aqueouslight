@@ -4,7 +4,7 @@ Introduction
 
 The ``plonetheme.aqueouslight`` package uses the `plone.app.theming`_ to make `Aqueous Light`_ theme by `Six Shooter Media`_ easly available in `Plone 4.1`_
 
-.. image:: screenshot.png
+.. image:: https://github.com/prmtl/plonetheme.aqueouslight/raw/master/screenshot.png
 
 Installation
 ============
