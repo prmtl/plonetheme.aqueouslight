@@ -79,7 +79,7 @@
         </after>
 
         <!-- Footer -->
-        <copy content-children='//*[@id="portal-footer"]' theme='//*[@id="footer"]' />
+        <merge content-children='//*[@id="portal-footer"]' theme='//*[@id="footer"]' />
         <append content-children='//*[@id="portal-colophon"]' theme='//*[@id="footer"]' />
         <append content='//*[@id="portal-siteactions"]' theme='//*[@id="footer"]' />
         <drop attributes="id" css:content="#portal-siteactions" />

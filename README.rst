@@ -9,12 +9,31 @@ The ``plonetheme.aqueouslight`` package uses the `plone.app.theming`_ to make `A
 Installation
 ============
 
-
 Zipfile
 -------
 
+If you are an end user, you might enjoy installation via zip file import.
+
+1. Download the zip file: https://github.com/prmtl/plonetheme.aqueouslight/raw/master/aqueouslight.zip
+2. Import the theme from the Diazo theme control panel.
+
 Buildout
 --------
+
+To install this with buildout:
+
+* Add ``plonetheme.aqueouslight`` to your ``plone.recipe.zope2instance`` section's ``eggs`` parameter::
+ 
+    [instance]
+    recipe = plone.recipe.zope2instance
+    ...
+    eggs =
+        ...
+        plonetheme.aqueouslight
+       
+* Re-run buildout, e.g. with::
+ 
+    $ ./bin/buildout
 
 Author & Contact
 ================
